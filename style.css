@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+
+}
+
+#welcome {
+    bottom: 0;
+    color: #504be3;
+    background: linear-gradient(#1cb5ba, #c2cc52 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#contact iframe {
+    width: 100%
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+input {
+    background: yellow;
+}
+
+#video iframe {
+    width: 80%;
+}
